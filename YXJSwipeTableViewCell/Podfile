@@ -1,0 +1,13 @@
+
+platform :ios, '8.0'
+
+target 'YXJSwipeTableViewCellTest' do
+    
+    xcodeproj 'YXJSwipeTableViewCellTest.xcodeproj'
+    
+    use_frameworks!
+    
+    pod "YXJSwipeTableViewCell", :path => "../"
+#    pod 'YXJSwipeTableViewCell'
+
+end
