@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "http://120.27.93.73/files/myPublicProject/YXJSwipeTableViewCell1.gif"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "stubbornness1219" => "18223847097@163.com" }
-  s.source           = { :git => "https://github.com/stubbornnessness/YXJSwipeTableViewCell.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/EasySwift/YXJSwipeTableViewCell.git", :tag => s.version.to_s }
   # s.source           = { :git => "/Users/yxj/Documents/YXJSwipeTableViewCell"}
   # s.social_media_url = 'https://twitter.com/yxj'
   s.platform     = :ios
