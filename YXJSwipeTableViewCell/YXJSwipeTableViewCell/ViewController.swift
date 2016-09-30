@@ -16,15 +16,15 @@ class ViewController: UITableViewController, YXJSwipeTableViewCellDelegate {
     }
 
     // MARK:table
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        weak var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as? ViewControllerCell
-        cell!.label!.text = "\(indexPath.row)"
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        weak var cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? ViewControllerCell
+        cell!.label!.text = "\((indexPath as NSIndexPath).row)"
 
         cell!.setRightUtilityButtons(rightButtons() as [AnyObject], withButtonWidth: (cell?.frame.size.height)!)
         cell!.delegate = self
@@ -36,18 +36,18 @@ class ViewController: UITableViewController, YXJSwipeTableViewCellDelegate {
     func rightButtons() -> NSMutableArray {
         let rightUtilityButtons = NSMutableArray()
 
-        rightUtilityButtons.YXJ_addUtilityButtonWithColor(UIColor.redColor(), title: "取消关注", titleColor: UIColor.whiteColor(), font: UIFont.systemFontOfSize(15), normalIcon: UIImage(named: "course_noFollow"), selectedIcon: UIImage(named: "course_noFollow"), position: .Top, space: 4)
+        rightUtilityButtons.yxj_addUtilityButton(with: UIColor.red, title: "取消关注", titleColor: UIColor.white, font: UIFont.systemFont(ofSize: 15), normalIcon: UIImage(named: "course_noFollow"), selectedIcon: UIImage(named: "course_noFollow"), position: .top, space: 4)
 
         return rightUtilityButtons
     }
-    func swipeableTableViewCell(cell: YXJSwipeTableViewCell!, didTriggerRightUtilityButtonWithIndex index: Int) {
+    func swipeableTableViewCell(_ cell: YXJSwipeTableViewCell!, didTriggerRightUtilityButtonWith index: Int) {
         print(">>>>>>>> \(index)")
-        cell.hideUtilityButtonsAnimated(true)
+        cell.hideUtilityButtons(animated: true)
     }
-    func swipeableTableViewCellShouldHideUtilityButtonsOnSwipe(cell: YXJSwipeTableViewCell!) -> Bool {
+    func swipeableTableViewCellShouldHideUtilityButtons(onSwipe cell: YXJSwipeTableViewCell!) -> Bool {
         return true
     }
-    func swipeableTableViewCell(cell: YXJSwipeTableViewCell!, canSwipeToState state: YXJSwipeCellState) -> Bool {
+    func swipeableTableViewCell(_ cell: YXJSwipeTableViewCell!, canSwipeTo state: YXJSwipeCellState) -> Bool {
         return true
     }
 

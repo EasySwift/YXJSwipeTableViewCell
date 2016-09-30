@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 YXJ. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIButton_SSEdgeInsets/UIButton+SSEdgeInsets.h>
+#import <UIKit/UIKit.h>
+//#import <UIButton_SSEdgeInsets/UIButton+SSEdgeInsets.h>
+#import "UIButton+SSEdgeInsets.h"
 
 @interface NSMutableArray (YXJSwipeUtilityButtons)
 

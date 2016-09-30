@@ -10,4 +10,5 @@ target 'YXJSwipeTableViewCellTest' do
     pod "YXJSwipeTableViewCell", :path => "../"
 #    pod 'YXJSwipeTableViewCell'
 
+    pod "UIButton-SSEdgeInsets"
 end
