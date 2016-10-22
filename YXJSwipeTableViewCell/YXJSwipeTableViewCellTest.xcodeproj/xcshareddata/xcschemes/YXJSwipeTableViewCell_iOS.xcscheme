@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DE44BBD91D9D73A000AE68C7"
-               BuildableName = "YXJSwipeTableViewCell.framework"
-               BlueprintName = "YXJSwipeTableViewCell ios"
+               BuildableName = "YXJSwipeTableViewCell_iOS.framework"
+               BlueprintName = "YXJSwipeTableViewCell_iOS"
                ReferencedContainer = "container:YXJSwipeTableViewCellTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE44BBD91D9D73A000AE68C7"
-            BuildableName = "YXJSwipeTableViewCell.framework"
-            BlueprintName = "YXJSwipeTableViewCell ios"
+            BuildableName = "YXJSwipeTableViewCell_iOS.framework"
+            BlueprintName = "YXJSwipeTableViewCell_iOS"
             ReferencedContainer = "container:YXJSwipeTableViewCellTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DE44BBD91D9D73A000AE68C7"
-            BuildableName = "YXJSwipeTableViewCell.framework"
-            BlueprintName = "YXJSwipeTableViewCell ios"
+            BuildableName = "YXJSwipeTableViewCell_iOS.framework"
+            BlueprintName = "YXJSwipeTableViewCell_iOS"
             ReferencedContainer = "container:YXJSwipeTableViewCellTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
