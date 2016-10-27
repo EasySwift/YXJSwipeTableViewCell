@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6C16A51DC268FF009445FD /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE6C16A41DC268FF009445FD /* Cartfile */; };
+		DE6C25B61DC24DC000057025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C25B51DC24DC000057025 /* AppDelegate.swift */; };
+		DE6C25B81DC24DC000057025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C25B71DC24DC000057025 /* ViewController.swift */; };
+		DE6C25BB1DC24DC000057025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6C25B91DC24DC000057025 /* Main.storyboard */; };
+		DE6C25BD1DC24DC000057025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6C25BC1DC24DC000057025 /* Assets.xcassets */; };
+		DE6C25C01DC24DC000057025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6C25BE1DC24DC000057025 /* LaunchScreen.storyboard */; };
+		DE6C25FC1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C25FA1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C25FF1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6C25F81DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DE6C26111DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C26041DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C26121DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C26051DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.m */; };
+		DE6C26141DC25B0D00057025 /* YXJSwipeCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C26071DC25B0D00057025 /* YXJSwipeCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C26151DC25B0D00057025 /* YXJSwipeCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C26081DC25B0D00057025 /* YXJSwipeCellScrollView.m */; };
+		DE6C26161DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C26091DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C26171DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C260A1DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.m */; };
+		DE6C26181DC25B0D00057025 /* YXJSwipeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C260B1DC25B0D00057025 /* YXJSwipeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C26191DC25B0D00057025 /* YXJSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C260C1DC25B0D00057025 /* YXJSwipeTableViewCell.m */; };
+		DE6C261A1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C260D1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C261B1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C260E1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.m */; };
+		DE6C261C1DC25B0D00057025 /* YXJSwipeUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6C260F1DC25B0D00057025 /* YXJSwipeUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6C261D1DC25B0D00057025 /* YXJSwipeUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6C26101DC25B0D00057025 /* YXJSwipeUtilityButtonView.m */; };
+		DE6C26241DC2650700057025 /* YXJDIYButtonPosition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6C26231DC2650700057025 /* YXJDIYButtonPosition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE6C25FD1DC25AE600057025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6C25AA1DC24DC000057025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6C25F71DC25AE600057025;
+			remoteInfo = YXJSwipeTableViewCell_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE6C16A21DC26837009445FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6C25D81DC24DD800057025 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE6C16A01DC26814009445FD /* YXJSwipeTableViewCell_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YXJSwipeTableViewCell_iOS.framework; path = Carthage/Build/iOS/YXJSwipeTableViewCell_iOS.framework; sourceTree = "<group>"; };
+		DE6C16A41DC268FF009445FD /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		DE6C25B21DC24DC000057025 /* YXJSwipeTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJSwipeTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6C25B51DC24DC000057025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE6C25B71DC24DC000057025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE6C25BA1DC24DC000057025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE6C25BC1DC24DC000057025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE6C25BF1DC24DC000057025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE6C25C11DC24DC000057025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6C25F81DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YXJSwipeTableViewCell_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6C25FA1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXJSwipeTableViewCell_iOS.h; sourceTree = "<group>"; };
+		DE6C25FB1DC25AE600057025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6C26041DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YXJSwipeUtilityButtons.h"; sourceTree = "<group>"; };
+		DE6C26051DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YXJSwipeUtilityButtons.m"; sourceTree = "<group>"; };
+		DE6C26071DC25B0D00057025 /* YXJSwipeCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJSwipeCellScrollView.h; sourceTree = "<group>"; };
+		DE6C26081DC25B0D00057025 /* YXJSwipeCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJSwipeCellScrollView.m; sourceTree = "<group>"; };
+		DE6C26091DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJSwipeLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		DE6C260A1DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJSwipeLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		DE6C260B1DC25B0D00057025 /* YXJSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJSwipeTableViewCell.h; sourceTree = "<group>"; };
+		DE6C260C1DC25B0D00057025 /* YXJSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJSwipeTableViewCell.m; sourceTree = "<group>"; };
+		DE6C260D1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJSwipeUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		DE6C260E1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJSwipeUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		DE6C260F1DC25B0D00057025 /* YXJSwipeUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXJSwipeUtilityButtonView.h; sourceTree = "<group>"; };
+		DE6C26101DC25B0D00057025 /* YXJSwipeUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXJSwipeUtilityButtonView.m; sourceTree = "<group>"; };
+		DE6C26231DC2650700057025 /* YXJDIYButtonPosition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YXJDIYButtonPosition.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6C25AF1DC24DC000057025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C25FF1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6C25F41DC25AE600057025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C26241DC2650700057025 /* YXJDIYButtonPosition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6C169F1DC26814009445FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C16A01DC26814009445FD /* YXJSwipeTableViewCell_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6C25A91DC24DC000057025 = {
+			isa = PBXGroup;
+			children = (
+				DE6C25B41DC24DC000057025 /* YXJSwipeTableViewCell */,
+				DE6C25F91DC25AE600057025 /* YXJSwipeTableViewCell_iOS */,
+				DE6C25B31DC24DC000057025 /* Products */,
+				DE6C169F1DC26814009445FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6C25B31DC24DC000057025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C25B21DC24DC000057025 /* YXJSwipeTableViewCell.app */,
+				DE6C25F81DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6C25B41DC24DC000057025 /* YXJSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C16A41DC268FF009445FD /* Cartfile */,
+				DE6C25B51DC24DC000057025 /* AppDelegate.swift */,
+				DE6C25B71DC24DC000057025 /* ViewController.swift */,
+				DE6C25B91DC24DC000057025 /* Main.storyboard */,
+				DE6C25BC1DC24DC000057025 /* Assets.xcassets */,
+				DE6C25BE1DC24DC000057025 /* LaunchScreen.storyboard */,
+				DE6C25C11DC24DC000057025 /* Info.plist */,
+			);
+			path = YXJSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE6C25F91DC25AE600057025 /* YXJSwipeTableViewCell_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C25FA1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.h */,
+				DE6C25FB1DC25AE600057025 /* Info.plist */,
+				DE6C26231DC2650700057025 /* YXJDIYButtonPosition.framework */,
+				DE6C26041DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.h */,
+				DE6C26051DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.m */,
+				DE6C26071DC25B0D00057025 /* YXJSwipeCellScrollView.h */,
+				DE6C26081DC25B0D00057025 /* YXJSwipeCellScrollView.m */,
+				DE6C26091DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.h */,
+				DE6C260A1DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.m */,
+				DE6C260B1DC25B0D00057025 /* YXJSwipeTableViewCell.h */,
+				DE6C260C1DC25B0D00057025 /* YXJSwipeTableViewCell.m */,
+				DE6C260D1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.h */,
+				DE6C260E1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.m */,
+				DE6C260F1DC25B0D00057025 /* YXJSwipeUtilityButtonView.h */,
+				DE6C26101DC25B0D00057025 /* YXJSwipeUtilityButtonView.m */,
+			);
+			path = YXJSwipeTableViewCell_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE6C25F51DC25AE600057025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C261A1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.h in Headers */,
+				DE6C26111DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.h in Headers */,
+				DE6C26161DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.h in Headers */,
+				DE6C26181DC25B0D00057025 /* YXJSwipeTableViewCell.h in Headers */,
+				DE6C261C1DC25B0D00057025 /* YXJSwipeUtilityButtonView.h in Headers */,
+				DE6C25FC1DC25AE600057025 /* YXJSwipeTableViewCell_iOS.h in Headers */,
+				DE6C26141DC25B0D00057025 /* YXJSwipeCellScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DE6C25B11DC24DC000057025 /* YXJSwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6C25C41DC24DC000057025 /* Build configuration list for PBXNativeTarget "YXJSwipeTableViewCell" */;
+			buildPhases = (
+				DE6C25AE1DC24DC000057025 /* Sources */,
+				DE6C25AF1DC24DC000057025 /* Frameworks */,
+				DE6C25B01DC24DC000057025 /* Resources */,
+				DE6C25D81DC24DD800057025 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6C25FE1DC25AE600057025 /* PBXTargetDependency */,
+			);
+			name = YXJSwipeTableViewCell;
+			productName = YXJSwipeTableViewCell;
+			productReference = DE6C25B21DC24DC000057025 /* YXJSwipeTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE6C25F71DC25AE600057025 /* YXJSwipeTableViewCell_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6C26011DC25AE600057025 /* Build configuration list for PBXNativeTarget "YXJSwipeTableViewCell_iOS" */;
+			buildPhases = (
+				DE6C25F31DC25AE600057025 /* Sources */,
+				DE6C25F41DC25AE600057025 /* Frameworks */,
+				DE6C25F51DC25AE600057025 /* Headers */,
+				DE6C16A21DC26837009445FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXJSwipeTableViewCell_iOS;
+			productName = YXJSwipeTableViewCell_iOS;
+			productReference = DE6C25F81DC25AE600057025 /* YXJSwipeTableViewCell_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6C25AA1DC24DC000057025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "袁晓钧";
+				TargetAttributes = {
+					DE6C25B11DC24DC000057025 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5N5628A342;
+						ProvisioningStyle = Automatic;
+					};
+					DE6C25F71DC25AE600057025 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5N5628A342;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE6C25AD1DC24DC000057025 /* Build configuration list for PBXProject "YXJSwipeTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE6C25A91DC24DC000057025;
+			productRefGroup = DE6C25B31DC24DC000057025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6C25B11DC24DC000057025 /* YXJSwipeTableViewCell */,
+				DE6C25F71DC25AE600057025 /* YXJSwipeTableViewCell_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6C25B01DC24DC000057025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C25C01DC24DC000057025 /* LaunchScreen.storyboard in Resources */,
+				DE6C25BD1DC24DC000057025 /* Assets.xcassets in Resources */,
+				DE6C16A51DC268FF009445FD /* Cartfile in Resources */,
+				DE6C25BB1DC24DC000057025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6C25AE1DC24DC000057025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C25B81DC24DC000057025 /* ViewController.swift in Sources */,
+				DE6C25B61DC24DC000057025 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6C25F31DC25AE600057025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6C261B1DC25B0D00057025 /* YXJSwipeUtilityButtonTapGestureRecognizer.m in Sources */,
+				DE6C26191DC25B0D00057025 /* YXJSwipeTableViewCell.m in Sources */,
+				DE6C26171DC25B0D00057025 /* YXJSwipeLongPressGestureRecognizer.m in Sources */,
+				DE6C26151DC25B0D00057025 /* YXJSwipeCellScrollView.m in Sources */,
+				DE6C261D1DC25B0D00057025 /* YXJSwipeUtilityButtonView.m in Sources */,
+				DE6C26121DC25B0D00057025 /* NSMutableArray+YXJSwipeUtilityButtons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE6C25FE1DC25AE600057025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE6C25F71DC25AE600057025 /* YXJSwipeTableViewCell_iOS */;
+			targetProxy = DE6C25FD1DC25AE600057025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE6C25B91DC24DC000057025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6C25BA1DC24DC000057025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE6C25BE1DC24DC000057025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6C25BF1DC24DC000057025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6C25C21DC24DC000057025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE6C25C31DC24DC000057025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6C25C51DC24DC000057025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N5628A342;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/YXJSwipeTableViewCell_iOS",
+				);
+				INFOPLIST_FILE = YXJSwipeTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJSwipeTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE6C25C61DC24DC000057025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N5628A342;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/YXJSwipeTableViewCell_iOS",
+				);
+				INFOPLIST_FILE = YXJSwipeTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJSwipeTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DE6C26021DC25AE600057025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5N5628A342;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXJSwipeTableViewCell_iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = YXJSwipeTableViewCell_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJSwipeTableViewCell-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE6C26031DC25AE600057025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5N5628A342;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXJSwipeTableViewCell_iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = YXJSwipeTableViewCell_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YXJ.YXJSwipeTableViewCell-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6C25AD1DC24DC000057025 /* Build configuration list for PBXProject "YXJSwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6C25C21DC24DC000057025 /* Debug */,
+				DE6C25C31DC24DC000057025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6C25C41DC24DC000057025 /* Build configuration list for PBXNativeTarget "YXJSwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6C25C51DC24DC000057025 /* Debug */,
+				DE6C25C61DC24DC000057025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6C26011DC25AE600057025 /* Build configuration list for PBXNativeTarget "YXJSwipeTableViewCell_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6C26021DC25AE600057025 /* Debug */,
+				DE6C26031DC25AE600057025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6C25AA1DC24DC000057025 /* Project object */;
+}
