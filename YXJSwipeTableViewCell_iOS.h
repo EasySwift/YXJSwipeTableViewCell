@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "YXJSwipeTableViewCell.h"
-
 //! Project version number for YXJSwipeTableViewCell_iOS.
 FOUNDATION_EXPORT double YXJSwipeTableViewCell_iOSVersionNumber;
 

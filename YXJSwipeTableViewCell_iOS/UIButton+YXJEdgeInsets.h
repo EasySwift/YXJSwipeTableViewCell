@@ -8,27 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, SSImagePositionType) {
-    SSImagePositionTypeLeft,   //图片在左，标题在右，默认风格
-    SSImagePositionTypeRight,  //图片在右，标题在左
-    SSImagePositionTypeTop,    //图片在上，标题在下
-    SSImagePositionTypeBottom  //图片在下，标题在上
+typedef NS_ENUM(NSInteger, YXJImagePositionType) {
+    YXJImagePositionTypeLeft,   //图片在左，标题在右，默认风格
+    YXJImagePositionTypeRight,  //图片在右，标题在左
+    YXJImagePositionTypeTop,    //图片在上，标题在下
+    YXJImagePositionTypeBottom  //图片在下，标题在上
 };
 
-typedef NS_ENUM(NSInteger, SSEdgeInsetsType) {
-    SSEdgeInsetsTypeTitle,//标题
-    SSEdgeInsetsTypeImage//图片
+typedef NS_ENUM(NSInteger, YXJEdgeInsetsType) {
+    YXJEdgeInsetsTypeTitle,//标题
+    YXJEdgeInsetsTypeImage//图片
 };
 
-typedef NS_ENUM(NSInteger, SSMarginType) {
-    SSMarginTypeTop         ,
-    SSMarginTypeBottom      ,
-    SSMarginTypeLeft        ,
-    SSMarginTypeRight       ,
-    SSMarginTypeTopLeft     ,
-    SSMarginTypeTopRight    ,
-    SSMarginTypeBottomLeft  ,
-    SSMarginTypeBottomRight
+typedef NS_ENUM(NSInteger, YXJMarginType) {
+    YXJMarginTypeTop         ,
+    YXJMarginTypeBottom      ,
+    YXJMarginTypeLeft        ,
+    YXJMarginTypeRight       ,
+    YXJMarginTypeTopLeft     ,
+    YXJMarginTypeTopRight    ,
+    YXJMarginTypeBottomLeft  ,
+    YXJMarginTypeBottomRight
 };
 
 /**
@@ -41,7 +41,7 @@ typedef NS_ENUM(NSInteger, SSMarginType) {
  if (button.width >＝ imageView.width + label.width){图像和文字都居中显示，imageView在左，label在右，中间没有空隙}
  */
 
-@interface UIButton (SSEdgeInsets)
+@interface UIButton (YXJEdgeInsets)
 
 /**
  *  利用UIButton的titleEdgeInsets和imageEdgeInsets来实现图片和标题的自由排布
@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger, SSMarginType) {
  *  @param type    图片位置类型
  *  @param spacing 图片和标题之间的间隙
  */
-- (void)setImagePositionWithType:(SSImagePositionType)type spacing:(CGFloat)spacing;
+- (void)setImagePositionWithType:(YXJImagePositionType)type spacing:(CGFloat)spacing;
 
 /**
  *  按钮只设置了title or image，该方法可以改变它们的位置
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSInteger, SSMarginType) {
  *  @param marginType     <#marginType description#>
  *  @param margin         <#margin description#>
  */
-- (void)setEdgeInsetsWithType:(SSEdgeInsetsType)edgeInsetsType marginType:(SSMarginType)marginType margin:(CGFloat)margin;
+- (void)setEdgeInsetsWithType:(YXJEdgeInsetsType)edgeInsetsType marginType:(YXJMarginType)marginType margin:(CGFloat)margin;
 
 
 

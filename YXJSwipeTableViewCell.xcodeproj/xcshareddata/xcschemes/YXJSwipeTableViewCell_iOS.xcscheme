@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE6C25F71DC25AE600057025"
+               BlueprintIdentifier = "DE63D4261DC3B0A800F62851"
                BuildableName = "YXJSwipeTableViewCell_iOS.framework"
                BlueprintName = "YXJSwipeTableViewCell_iOS"
                ReferencedContainer = "container:YXJSwipeTableViewCell.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE6C25F71DC25AE600057025"
+            BlueprintIdentifier = "DE63D4261DC3B0A800F62851"
             BuildableName = "YXJSwipeTableViewCell_iOS.framework"
             BlueprintName = "YXJSwipeTableViewCell_iOS"
             ReferencedContainer = "container:YXJSwipeTableViewCell.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE6C25F71DC25AE600057025"
+            BlueprintIdentifier = "DE63D4261DC3B0A800F62851"
             BuildableName = "YXJSwipeTableViewCell_iOS.framework"
             BlueprintName = "YXJSwipeTableViewCell_iOS"
             ReferencedContainer = "container:YXJSwipeTableViewCell.xcodeproj">

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  YXJSwipeTableViewCell
 //
-//  Created by yuanxiaojun on 2016/10/27.
+//  Created by yuanxiaojun on 2016/10/29.
 //  Copyright © 2016年 袁晓钧. All rights reserved.
 //
 

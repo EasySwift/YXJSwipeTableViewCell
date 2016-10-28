@@ -1,6 +1,0 @@
-framework module YXJDIYButtonPosition {
-  umbrella header "YXJDIYButtonPosition.h"
-
-  export *
-  module * { export * }
-}

@@ -46,7 +46,7 @@
     [self addObject:button];
 }
 
-- (void)YXJ_addUtilityButtonWithColor:(UIColor *)bgColor title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font normalIcon:(UIImage *)normalIcon selectedIcon:(UIImage *)selectedIcon position:(SSImagePositionType)position space:(CGFloat)space{
+- (void)YXJ_addUtilityButtonWithColor:(UIColor *)bgColor title:(NSString *)title titleColor:(UIColor *)titleColor font:(UIFont *)font normalIcon:(UIImage *)normalIcon selectedIcon:(UIImage *)selectedIcon position:(YXJImagePositionType)position space:(CGFloat)space{
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.backgroundColor = bgColor;
     [button setImage:normalIcon forState:UIControlStateNormal];
